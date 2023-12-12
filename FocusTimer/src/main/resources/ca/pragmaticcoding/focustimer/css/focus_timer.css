@@ -1,0 +1,76 @@
+.root {
+  -focus-colour: #D04E4E;
+  -rest-colour: #4EA1D0;
+  -end-colour: #201010;
+}
+
+.main-screen {
+  -fx-background-radius: 20;
+  -fx-border-radius: 20;
+  -fx-background-insets: 10;
+  -fx-padding: 16px;
+}
+
+.header-bar{
+    -fx-background-color: "D9D9D9";
+    -fx-background-radius: 20 20 0 0;
+    -fx-background-insets: -6 -6 0 -6;
+    -fx-padding: 2px;
+}
+
+.action-button {
+  -fx-background-color: none;
+  -fx-opacity: 0.6;
+}
+
+.action-button: hover {
+  -fx-opacity: 1.0;
+}
+
+.disk-number {
+  -fx-fill: black;
+  -fx-font-size: 14px;
+}
+
+.big-tick {
+  -fx-fill: #0a0a34;
+  -fx-stroke: #0a0a34;
+}
+
+.small-tick {
+  -fx-fill: slategrey;
+  -fx-stroke: slategrey;
+}
+
+.focus-disk {
+  -fx-fill: -focus-colour;
+}
+
+.rest-disk {
+  -fx-fill: -rest-colour;
+}
+
+.focus-time {
+  -fx-background-color: -focus-colour;
+  -fx-font-size: 18px;
+  -fx-background-radius: 4px;
+  -fx-padding: 2px;
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+
+.rest-time {
+  -fx-background-color: -rest-colour;
+  -fx-font-size: 18px;
+  -fx-background-radius: 4px;
+  -fx-padding: 2px;
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+
+.completion-time {
+  -fx-background-color: -end-colour;
+  -fx-font-size: 18px;
+  -fx-text-fill: white;
+  -fx-background-radius: 4px;
+  -fx-padding: 2px;
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
